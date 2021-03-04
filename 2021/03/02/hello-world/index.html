@@ -172,14 +172,14 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
     let initData = {
       el: '#waline-wrap',
       serverURL: 'https://hexo-blog-comments.vercel.app',
-      avatar: '',
+      avatar: 'mp',
       path: location.pathname,
       emojiCDN: '',
       emojiMaps: "",
     }
     
-    if (false) {
-      const otherData = false
+    if (true) {
+      const otherData = {"placeholder":"说两句？","avatarForce":true}
       initData = Object.assign(initData, otherData)
     }
     
